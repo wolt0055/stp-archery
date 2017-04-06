@@ -16,14 +16,14 @@ header {
 .content {
   background: #eee;
   font-size: 2rem;
-  padding: 1rem;
+  padding: .5rem;
   text-align: center;
 }
 
 /* Anything can be a grid! */
 .grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 /* telling css that columns shouldn't flex, but generic cells should */

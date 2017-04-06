@@ -11,10 +11,16 @@ body {
 }
 
 header {
-  background: gray;
-  margin-bottom: 1rem;
+  background: #a1aaa1;
+  margin-bottom: 0;
   padding: 0;
+  height: 16vh;
+  /*min-height: 100px;*/
   /*padding: .5rem 1rem;*/
+}
+
+.note-active-pages p {
+  font-size: 5rem;
 }
 
 .grid {
@@ -32,16 +38,28 @@ header {
   min-width: 430px;
 }
 
-.services-name {
+/*.services-name {
   text-align: center;
   font-size: 5rem;
   grid-column-start: 3;
-}
+}*/
 
 .img-sml {
+  width: 100px;
+  height: 100px;
+}
+
+.img-med {
   width: 100%;
   height: 100%;
+  padding: 1rem;
 }
+
+/*.img-private {
+  width: 100%;
+  height: 75%;
+  padding: 1rem 5rem;
+}*/
 
 .addy {
   font-size: .9rem;
@@ -66,7 +84,74 @@ header {
 
 .classes-line {
   font-size: 4rem;
-  border-top-style: double;
+  /*border-top-style: double;*/
   border-bottom-style: double;
   /*text-decoration: underline;*/
+}
+
+.foot-index {
+  bottom: 0;
+  /*height: 10px;*/
+  /*padding: 3rem;*/
+  /*left: 0;*/
+  position: relative;
+  width: 100%;
+}
+
+.basic-arch {
+  grid-column-start: 2;
+}
+
+.ul {
+  list-style:none;
+}
+
+.li {
+  list-style: none;
+}
+
+.body-class-text {
+  font-size: 4rem;
+  height:4.5rem;
+  padding-top: .5rem;
+  margin-bottom: 0;
+}
+
+.course-desc {
+  padding: 0 2rem 1rem ;
+  text-align: justify;
+}
+
+.prereqs {
+  font-style: italic;
+  font-size: .9rem;
+}
+
+.cost-line {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 0;
+  border-bottom-style: double;
+}
+
+.instructor-bio p {
+  text-align: justify;
+  padding: .5rem 1rem;
+}
+.instructor-bio h3 {
+  text-align: center;
+  padding: .5rem 1rem;
+  margin-top: 5px;
+}
+.first-word-prereq {
+  font-style: bold;
+}
+.private-lesson-desc {
+  padding-top: 1rem;
+  text-align: justify;
+  /*grid-column-start: 3;*/
+}
+
+.action-shot {
+  box-sizing: border-box;
 }
